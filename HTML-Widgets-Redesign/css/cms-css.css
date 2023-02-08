@@ -1,0 +1,105 @@
+/* Fonts
+--------------------------------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
+@font-face { font-family: "FuturaPTBook"; src: url('../fonts/Futura%20PT_Book.eot'); src: url('../fonts/Futura%20PT_Book.eot?#iefix') format('embedded-opentype'), url('../fonts/Futura%20PT_Book.woff2') format('woff2'), url('../fonts/Futura%20PT_Book.woff') format('woff'), url('../fonts/Futura%20PT_Book.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: "FuturaPTDemi"; src: url('../fonts/Futura%20PT_Demi.eot'); src: url('../fonts/Futura%20PT_Demi.eot?#iefix') format('embedded-opentype'), url('../fonts/Futura%20PT_Demi.woff2') format('woff2'), url('../fonts/Futura%20PT_Demi.woff') format('woff'), url('../fonts/Futura%20PT_Demi.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: "FuturaPTBold"; src: url('../fonts/Futura%20PT_Bold.eot'); src: url('../fonts/Futura%20PT_Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Futura%20PT_Bold.woff2') format('woff2'), url('../fonts/Futura%20PT_Bold.woff') format('woff'), url('../fonts/Futura%20PT_Bold.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+body { color: #013142; font-size: 16px; line-height: 24px; -ms-overflow-style: scrollbar; }
+.sf-editor { color: #013142 !important; font-family: "FuturaPTBook", sans-serif; font-size: 16px !important; line-height: 24px !important; }
+.sf-editor a { color: #56765C; text-decoration: underline; }
+.sf-input.-rich-text .sf-input__field address, .sf-input.-rich-text .sf-input__field article, .sf-input.-rich-text .sf-input__field dl, .sf-input.-rich-text .sf-input__field figcaption, .sf-input.-rich-text .sf-input__field h1, .sf-input.-rich-text .sf-input__field h2, .sf-input.-rich-text .sf-input__field h3, .sf-input.-rich-text .sf-input__field h4, .sf-input.-rich-text .sf-input__field h5, .sf-input.-rich-text .sf-input__field h6, .sf-input.-rich-text .sf-input__field ol, .sf-input.-rich-text .sf-input__field pre, .sf-input.-rich-text .sf-input__field section, .sf-input.-rich-text .sf-input__field table, .sf-input.-rich-text .sf-input__field ul, .sf-input.-rich-text .sf-input__field video { margin-bottom: 0; }
+.sf-app p { margin-bottom: 0; }
+
+/* CMS Block
+--------------------------------------------------------------------------------------------------------*/
+.sf-editor { color: #013142; font: initial; font-family: "FuturaPTBook", sans-serif; line-height: inherit; }
+.sf-editor b, .cms-block strong { font-family: "FuturaPTBold"; }
+.sf-editor i { font-style: italic; }
+.sf-editor sup { vertical-align: super; font-size: 13px; line-height: 17px; }
+.sf-editor a { color: #56765C; text-decoration: underline; }
+.sf-editor a:hover { color: #8abf94; }
+.sf-editor blockquote { display: block; margin-top: 1em; margin-bottom: 1em; margin-inline-start: 40px; margin-inline-end: 40px; }
+.sf-editor ul { display: block; list-style-type: disc; margin-top: 1em !important; margin-bottom: 1em !important; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; }
+.sf-editor ul li { display: list-item; text-align: -webkit-match-parent; }
+.sf-editor ol { display: block; list-style-type: decimal; margin-top: 1em; margin-bottom: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; }
+.sf-editor ol li { display: list-item; text-align: -webkit-match-parent; }
+
+/* Typography
+--------------------------------------------------------------------------------------------------------*/
+.sf-editor .demi { font-family: "FuturaPTDemi", sans-serif; }
+.sf-editor .bold, .sf-editor b, .sf-editor strong { font-family: "FuturaPTBold"; }
+{ font-family: "FuturaPTBold", sans-serif; }
+.sf-editor h1 { font-family: "FuturaPTBold", sans-serif; font-size: 14px; letter-spacing: 0.05em; line-height: 22px; }
+.sf-editor h2 { font-family: 'Playfair Display', sans-serif; font-size: 64px; font-weight: 700; letter-spacing: 0.02em; line-height: 80px; }
+.sf-editor h3 { font-family: "FuturaPTDemi", sans-serif; font-size: 32px; letter-spacing: 0; line-height: 40px; }
+.sf-editor h4 { font-family: "FuturaPTDemi", sans-serif; font-size: 24px; letter-spacing: 0.005em; line-height: 30px; }
+.sf-editor h5 { }
+.sf-editor h6 { font-size: 14px; line-height: 22px; }
+.sf-editor .playfair-xl { font-family: 'Playfair Display', sans-serif; font-size: 80px; font-weight: 700; letter-spacing: 0.02em; line-height: 96px; }
+.sf-editor .mid-headline { font-family: 'Playfair Display', sans-serif; font-size: 40px; font-weight: 700; letter-spacing: 0.01em; line-height: 48px; }
+.sf-editor p { letter-spacing: 0.01em; }
+.sf-editor p.demi { letter-spacing: 0.02em; }
+.sf-editor p.text-uppercase { letter-spacing: 0.025em; }
+.sf-editor p.large-pera { font-size: 20px !important; letter-spacing: 0.017em; line-height: 32px; }
+.sf-editor p.large-pera.demi { letter-spacing: 0.015em; }
+.sf-editor .label { font-family: "FuturaPTDemi", sans-serif; font-size: 14px; letter-spacing: 0.025em; line-height: 22px; }
+.sf-editor .label.bold { font-family: "FuturaPTBold", sans-serif; letter-spacing: 0.05em; }
+.sf-editor .small-detail { font-size: 14px; letter-spacing: 0.015em !important; line-height: 22px; }
+@media (max-width:1439px) {
+
+	/* Typography
+	--------------------------------------------------------------------------------------------------------*/
+	h1 { font-size: 12px; }
+	h2 { font-size: 48px; line-height: 64px; }
+	h3 { font-size: 24px; letter-spacing: 0.02em; }
+	h4 { }
+	h5 { }
+	h6 { }
+	.playfair-xl { font-size: 64px; line-height: 72px; }
+	.mid-headline { font-size: 32px; letter-spacing: 0.02em; line-height: 40px; }
+	p.demi { }
+	p.text-uppercase { }
+	p.large-pera { font-size: 16px; letter-spacing: 0.02em; line-height: 24px; }
+	.label { }
+	.label-bold { font-size: 12px; letter-spacing: 0.05em; line-height: 22px; }
+	.small-detail { }
+}
+@media (max-width:1023px) {
+
+	/* Typography
+	--------------------------------------------------------------------------------------------------------*/
+	h1 { }
+	h2 { font-size: 44px; letter-spacing: 0.03em; line-height: 54px; }
+	h3 { line-height: 30px; }
+	h4 { }
+	h5 { }
+	h6 { }
+	.playfair-xl { font-size: 56px; line-height: 64px; }
+	.mid-headline { }
+	p.demi { }
+	p.text-uppercase { }
+	p.large-pera { }
+	.label { }
+	.label-bold { }
+	.small-detail { }
+}
+@media (max-width:767px) {
+
+	/* Typography
+	--------------------------------------------------------------------------------------------------------*/
+	h1 { font-size: 14px; }
+	h2 { }
+	h3 { font-size: 28px; line-height: 34px; }
+	h4 { line-height: 34px; }
+	h5 { }
+	h6 { }
+	.playfair-xl { font-size: 64px; line-height: 80px; }
+	.mid-headline { }
+	p { font-size: 20px; letter-spacing: 0.015em; line-height: 30px; }
+	p.demi { letter-spacing: 0.01em; }
+	p.text-uppercase { letter-spacing: 0.025em; line-height: 32px; }
+	p.large-pera { font-size: 22px; letter-spacing: 0.015em; line-height: 32px; }
+	.label { font-size: 16px; letter-spacing: 0.025em; line-height: 22px; }
+	.label.bold { font-size: 14px; letter-spacing: 0.05em; }
+	.small-detail { font-size: 16px; letter-spacing: 0.01em !important; line-height: 24px; }
+}
