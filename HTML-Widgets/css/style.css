@@ -1243,7 +1243,7 @@ input:checked + .slider:before { -ms-transform: translateX(24px); -webkit-transf
 .xplan-config-codes .form-group label{ font-weight: 500;font-size: 14px;line-height: 22px;letter-spacing: 0.025em;text-transform: uppercase;color: #013142;margin-bottom: 4px;}
 .xplan-config-codes .form-group .form-control{border: 1px solid #80ABBA;border-radius: 3px;background: none;font-style: normal;box-shadow: none!important;font-weight: 700;font-size: 20px;line-height: 30px;letter-spacing: 0.015em;color: #80ABBA!important;padding: 12px 15px 12px 20px;min-width: 343px;max-width: 343px;}
 .xplan-config-codes .form-group .form-control:focus{border-color: #F9A456;}
-.xplan-config-codes .btn-light-outlined{display: block; color: #9FD3A8; width: auto; background: none; border-radius: 3px; border-color: #9FD3A8!important; font-size: 14px; line-height: 22px;letter-spacing: 0.015em; text-transform: uppercase;font-family: 'FuturaPTDemi';position: relative;padding: 12px 26px;height: auto;margin-bottom: 17px;}
+.xplan-config-codes .btn-light-outlined{display: block; color: #9FD3A8; width: auto; background: none; border-radius: 3px; border-color: #9FD3A8!important; font-size: 14px; line-height: 22px;letter-spacing: 0.015em; text-transform: uppercase;font-family: 'FuturaPTDemi';position: relative;padding: 12px 30px;height: auto;margin-bottom: 17px;}
 .xplan-config-codes .btn-light-outlined:hover, .xplan-config-codes .btn-light-outlined:focus{background: #9FD3A8 !important;color: #005776!important;}
 
 /* Footer
@@ -2946,7 +2946,7 @@ input:checked + .slider:before { -ms-transform: translateX(24px); -webkit-transf
 	.xplan-config-codes .form-group .form-control{max-width: 100%;}
 	.xplan-config-codes .block-body .row.gutter-18px .col-auto{margin-left: auto;}
 	.xplan-config-codes .form-group{margin-bottom: 10px;}
-	.xplan-config-codes .btn-light-outlined{margin-bottom: 0;}
+	.xplan-config-codes .btn-light-outlined{margin-bottom: 0; padding: 12px 33px;}
 	.xplan-config-codes .block-body .row.gutter-18px{margin-bottom: 35px;}
 	.xplan-config-codes .mt--8{margin-top: -8px;}
 
